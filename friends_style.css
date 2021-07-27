@@ -96,14 +96,14 @@ h4 {
   display: flex;
   justify-content: space-between;
 }
-.user-component__smail-clolumn__cover img {
+.user-component__small-clolumn__cover img {
   width: 60px;
   height: 60px;
   border-radius: 22px;
   margin: 0 5px;
 }
 
-.user-component_smail {
+.user-component_small {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -111,76 +111,76 @@ h4 {
   box-sizing: border-box;
   border-bottom: 0.3px solid rgb(151, 151, 151);
 }
-.user-component__smail-clolumn {
+.user-component__small-clolumn {
   display: flex;
   align-items: center;
   margin-top: 15px;
   padding: 0px 0px 0px 10px;
 }
-.user-component__smail-clolumn-number {
+.user-component__small-clolumn-number {
   display: flex;
 }
-.user-component__smail-clolumn-number h4 {
+.user-component__small-clolumn-number h4 {
   margin-right: 5px;
 }
 
-.user-component__smail-clolumn__cover2 img {
+.user-component__small-clolumn__cover2 img {
   width: 60px;
   height: 60px;
   border-radius: 22px;
   margin: 0 5px;
 }
 
-.user-component_smail2 {
+.user-component_small2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0px 30px 15px 15px;
   box-sizing: border-box;
 }
-.user-component__smail-clolumn2 {
+.user-component__small-clolumn2 {
   display: flex;
   align-items: center;
   margin-top: 15px;
   padding: 0px 0px 0px 10px;
 }
 
-.user-component__smail-clolumn__cover3 img {
+.user-component__small-clolumn__cover3 img {
   width: 60px;
   height: 60px;
   border-radius: 22px;
   margin: 0 5px;
 }
 
-.user-component_smail3 {
+.user-component_small3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0px 30px 15px 15px;
   box-sizing: border-box;
 }
-.user-component__smail-clolumn3 {
+.user-component__small-clolumn3 {
   display: flex;
   align-items: center;
   margin-top: 15px;
   padding: 0px 0px 0px 10px;
 }
 
-.user-component__smail-clolumn__cover4 img {
+.user-component__small-clolumn__cover4 img {
   width: 60px;
   height: 60px;
   border-radius: 22px;
   margin: 0 5px;
 }
 
-.user-component_smail4 {
+.user-component_small4 {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0px 30px 15px 15px;
   box-sizing: border-box;
 }
-.user-component__smail-clolumn4 {
+.user-component__small-clolumn4 {
   display: flex;
   align-items: center;
   margin-top: 15px;
