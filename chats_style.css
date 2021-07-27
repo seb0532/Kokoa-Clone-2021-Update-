@@ -72,3 +72,45 @@ h1 {
 .user-component__mid-clolumn-number h4 {
   margin-right: 5px;
 }
+
+.nav__list {
+  background-color: #090a0b;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 30px;
+  bottom: 0px;
+  text-decoration: none;
+}
+a {
+  color: inherit;
+  color: #6e14cd;
+}
+a:hover {
+  color: #e8bf26;
+}
+.nav_number {
+  color: white;
+  background-color: tomato;
+  padding: 4.5px 6.5px;
+  border-radius: 50%;
+  font-size: 12px;
+  display: flex;
+  position: absolute;
+  margin-top: -35px;
+  margin-left: 22px;
+}
+.nav_number:hover {
+  animation: alarm 2s ease-in-out infinite;
+}
+
+@keyframes alarm {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-11px) rotateY(360deg) scale(1.2);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
