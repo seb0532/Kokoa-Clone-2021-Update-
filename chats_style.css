@@ -49,6 +49,14 @@ h1 {
   font-size: 30px;
   font-weight: 500;
 }
+h3 {
+  margin-left: 10px;
+  font-size: 22px;
+  font-weight: 500;
+}
+h4 {
+  font-weight: 500;
+}
 .chats__icon {
   margin-right: 20px;
 }
@@ -59,7 +67,6 @@ h1 {
   justify-content: space-between;
   padding: 0px 30px 15px 15px;
   box-sizing: border-box;
-  border-bottom: 0.3px solid rgb(151, 151, 151);
 }
 .user-component__mid-clolumn {
   display: flex;
@@ -72,6 +79,12 @@ h1 {
 }
 .user-component__mid-clolumn-number h4 {
   margin-right: 5px;
+}
+.user-component__mid-clolumn__cover img {
+  width: 70px;
+  height: 70px;
+  border-radius: 22px;
+  margin: 0 5px;
 }
 
 .nav__list {
