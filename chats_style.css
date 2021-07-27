@@ -88,6 +88,21 @@ a {
 a:hover {
   color: #e8bf26;
 }
+.nav__list {
+  background-color: #090a0b;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 30px;
+  bottom: 0px;
+  text-decoration: none;
+}
+a {
+  color: inherit;
+  color: #6e14cd;
+}
+a:hover {
+  color: #e8bf26;
+}
 .nav_number {
   color: white;
   background-color: tomato;
