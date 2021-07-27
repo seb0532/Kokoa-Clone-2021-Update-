@@ -8,6 +8,7 @@ body {
   font-family: "Baloo 2";
   background-color: #1c1e24;
   color: white;
+  height: 100vh;
 }
 .status_bar {
   display: flex;
@@ -77,25 +78,13 @@ h1 {
   background-color: #090a0b;
   display: flex;
   justify-content: space-between;
-  padding: 16px 30px;
+  position: fixed;
   bottom: 0px;
-  text-decoration: none;
-}
-a {
-  color: inherit;
-  color: #6e14cd;
-}
-a:hover {
-  color: #e8bf26;
-}
-.nav__list {
-  background-color: #090a0b;
-  display: flex;
-  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
   padding: 16px 30px;
-  bottom: 0px;
-  text-decoration: none;
 }
+
 a {
   color: inherit;
   color: #6e14cd;
