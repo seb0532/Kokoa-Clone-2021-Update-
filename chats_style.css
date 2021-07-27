@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;800&family=Cinzel:wght@800&display=swap");
+@import "reset.css";
+@import "no-mobile.css";
+
+body {
+  margin: 0;
+  font-weight: 400;
+  font-family: "Baloo 2";
+  background-color: #1c1e24;
+  color: white;
+}
+.status_bar {
+  display: flex;
+  justify-content: center;
+}
+.status_bar_parts {
+  color: white;
+  width: 33%;
+}
+.status_bar_parts:first-child span {
+  margin-right: 5px;
+}
+
+.status_bar_parts:nth-child(2) span {
+  display: flex;
+  justify-content: center;
+}
+.status_bar_parts:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#center_parts {
+  font-weight: 600;
+}
+.status_bar_parts:last-child span {
+  margin-right: 5px;
+}
+
+.chats-header {
+  display: flex;
+  padding: 35px 10px 20px 30px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.chats__icon {
+  margin-right: 20px;
+}
+
+.user-component_mid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px 15px 15px;
+  box-sizing: border-box;
+  border-bottom: 0.3px solid rgb(151, 151, 151);
+}
+.user-component__mid-clolumn {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  padding: 0px 0px 0px 10px;
+}
+.user-component__mid-clolumn-number {
+  display: flex;
+}
+.user-component__mid-clolumn-number h4 {
+  margin-right: 5px;
+}
