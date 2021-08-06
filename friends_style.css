@@ -16,6 +16,7 @@ body {
 .status_bar_parts {
   color: white;
   width: 33%;
+  background-color: #15181a;
 }
 .status_bar_parts:first-child span {
   margin-right: 5px;
@@ -67,7 +68,7 @@ h1 {
   padding: 20px 30px;
   display: flex;
   text-align: center;
-  border-bottom: 0.3px solid rgb(151, 151, 151);
+  border-bottom: 0.3px solid #3b3d46;
 }
 .user-component__clolumn__cover img {
   width: 80px;
@@ -109,7 +110,7 @@ h4 {
   justify-content: space-between;
   padding: 0px 30px 15px 15px;
   box-sizing: border-box;
-  border-bottom: 0.3px solid rgb(151, 151, 151);
+  border-bottom: 0.3px solid #3b3d46;
 }
 .user-component__small-clolumn {
   display: flex;
@@ -207,7 +208,7 @@ a:hover {
 .nav_number {
   color: white;
   background-color: tomato;
-  padding: 4.5px 6.5px;
+  padding: 5px;
   border-radius: 50%;
   font-size: 12px;
   display: flex;

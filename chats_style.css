@@ -17,6 +17,7 @@ body {
 .status_bar_parts {
   color: white;
   width: 33%;
+  background-color: #15181a;
 }
 .status_bar_parts:first-child span {
   margin-right: 5px;
@@ -56,7 +57,7 @@ h3 {
 }
 h4 {
   font-weight: 400;
-  opacity: 0.6;
+  opacity: 0.3;
   font-size: 11pt;
 }
 .chats__icon {
@@ -111,7 +112,7 @@ a:hover {
 .nav_number {
   color: white;
   background-color: tomato;
-  padding: 4.5px 6.5px;
+  padding: 5px;
   border-radius: 50%;
   font-size: 12px;
   display: flex;
@@ -159,4 +160,7 @@ h6 {
 #user-component__mid-cloumn-number-comment {
   background-color: tomato;
   opacity: 0;
+}
+.user-component_mid:nth-child(even) {
+  background-color: #202229;
 }
